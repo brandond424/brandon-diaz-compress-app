@@ -1,0 +1,15 @@
+{
+  "name": "brandon-diaz-compress-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cd src/server && npm install && npm start",
+    "dev": "concurrently \"cd src/server && nodemon\" \"cd src/client && npm start\""
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=12.16.1",
+    "npm": ">=6.13.4"
+  },
+  "devDependencies": {}
+}
